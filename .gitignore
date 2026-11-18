@@ -1,0 +1,27 @@
+# Persönlicher Lernstand und Sitzungsdaten bleiben lokal
+AP1/99 System/daten/
+AP2/99 System/daten/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-spaced-repetition/data.json
+.trash/
+**/__pycache__/
+**/bilder/quelle/galerie.html
+
+# Nur die im README genannten Plugins sind Teil des Repos.
+# Alles andere unter .obsidian/plugins bleibt lokal (z. B. eigene,
+# nicht veröffentlichte Werkzeuge).
+.obsidian/plugins/*
+!.obsidian/plugins/dataview/
+!.obsidian/plugins/obsidian-spaced-repetition/
+
+# Positivliste für die Vault-Wurzel: nur diese Pfade gehören ins Repo.
+# Alles andere (z. B. lokale Werkzeuge, die sich hier ablegen) bleibt
+# automatisch außen vor, ohne dass dieses Ignore-Muster es kennen muss.
+/*
+!/.gitignore
+!/.obsidian/
+!/AP1/
+!/AP2/
+!/Ausbildungspruefungen.md
+!/README.md
